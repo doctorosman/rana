@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=REM:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@400;700&display=swap');
 
 * {
     margin: 0;
@@ -91,7 +89,7 @@ a {
 .siir .text p {
     padding: 1em;
     font-size: 1.1em;
-    font-family: 'Playpen Sans', sans-serif;
+    font-family: 'Playpen Sans', cursive;
 }
 
 #s3 p {
@@ -107,6 +105,11 @@ a {
 }
 #s6 p {
     font-size: 0.87em;
+}
+
+#s8 b {
+    font-family: 'Playpen Sans', cursive;
+    font-weight: 700;
 }
 
 @media screen and (max-height: 730px) {
